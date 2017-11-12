@@ -1,1 +1,3 @@
-console.log("Hello word");
+const name = process.argv[2];
+
+console.log(`Hi ${name}!`);
